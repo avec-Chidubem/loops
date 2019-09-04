@@ -1,0 +1,170 @@
+body
+{
+    background-color: rgba(30, 30, 44, 0.76);
+}
+.whiteback
+{
+    box-shadow: 40px;
+    
+    background-color: rgb(255, 255, 255);
+    background-repeat: none;
+    text-align: center;
+    height: 650px;
+    width: 1400px;
+    position: absolute;
+    top: 5%;
+    bottom: 50%;
+    left: 7%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 120px rgba(0, 0, 0, .6);
+}
+.tallpic
+{
+    position: absolute;
+    top: 0%;
+    bottom: 50%;
+    left: 67.9%;
+    border-image: 10px;
+    
+}
+.become
+{
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    left: 8%;
+    top: 9%;
+}
+.greywords
+{
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    left: 0.3%;
+    top: 20%;
+    color: rgba(163, 162, 162, 0.651);
+    font-size: 13px;
+}
+.stilllogin
+{
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    left: 7%;
+    top: 90%;
+    color: black;
+    font-size: 15px;
+}
+.signin
+{
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    left: 45%;
+    top: 90%;
+    color: rgba(151, 151, 151, 0.486);
+    font-size: 13px;
+}
+.signin:hover
+{
+  color: black;
+}
+.greyline
+{
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    left: 0%;
+    top: 85%;
+    color: rgba(151, 151, 151, 0.295);
+    font-size: 13px;
+    text-align: center;
+}
+.googleplus
+{
+    background-color: rgb(255, 255, 255);
+    background-repeat: none;
+    text-align: center;
+    height: 80px;
+    width: 500px;
+    position: absolute;
+    top: 35%;
+    bottom: 50%;
+    left: 8%;
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.479);
+    font-family: 'Quicksand', sans-serif;
+    transition: 150ms;
+    
+    
+}
+.googleplus:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.192);
+}
+.facebook
+{
+    background-color: rgb(255, 255, 255);
+    background-repeat: none;
+    text-align: center;
+    height: 80px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 8%;
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.459);
+    font-family: 'Quicksand', sans-serif;
+    transition: 150ms;
+    
+    
+}
+.facebook:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.178);
+   
+}
+.twitter
+{
+    background-color: rgb(255, 255, 255);
+    background-repeat: none;
+    text-align: center;
+    height: 80px;
+    width: 500px;
+    position: absolute;
+    top: 65%;
+    bottom: 50%;
+    left: 8%;
+    box-sizing: border-box;
+    border: 1px solid rgba(128, 128, 128, 0.514);
+    font-family: 'Quicksand', sans-serif;
+    transition: 150ms;
+    
+    
+}
+.twitter:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.253);
+}
+.googleimg
+{
+    top: 20px;
+    left: 25px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.facebookimg
+{
+    top: 20px;
+    left: 25px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.twitterimg
+{
+    top: 20px;
+    left: 25px;
+    box-sizing: border-box;
+    position: absolute;
+}
+

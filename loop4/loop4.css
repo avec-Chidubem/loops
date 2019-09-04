@@ -1,0 +1,206 @@
+.chatbox
+{
+    box-shadow: 40px;
+    background-color: rgba(255, 255, 255, 0.829);
+    background-repeat: none;
+    text-align: center;
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    left: 40%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.chatbox .zuckerberg
+{
+    box-shadow: 40px;
+    background-color: rgb(18, 93, 163);
+
+    text-align: center;
+    height: 40px;
+    width: 350px;
+    position: absolute;
+    top: 0%;
+    bottom: 50%;
+    left: 0%;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+.X
+{
+    box-shadow: 40px;
+    background-color: rgb(18, 93, 163);
+
+    text-align: center;
+
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    top: 0%;
+    bottom: 50%;
+    left: 86%;
+    box-sizing: border-box;
+    border-radius: 0px;
+
+}
+.Ximg:hover
+{
+    background-color: rgb(18, 93, 163);
+    color: aqua;
+    
+    text-decoration-line: none;
+}
+.marko
+{
+    box-shadow: 40px;
+    background-color: rgb(18, 93, 163);
+
+    text-align: center;
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    top: 0%;
+    bottom: 50%;
+    left: 10%;
+    box-sizing: border-box;
+    border-radius: 0px;
+
+}
+.dot
+{
+    box-shadow: 40px;
+    background-color: rgb(255, 255, 255);
+
+    text-align: center;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 5%;
+    bottom: 50%;
+    left: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.hi-mark
+{
+    box-shadow: 40px;
+    background-color: rgba(160, 191, 238, 0.411);
+
+    
+    height: 60px;
+    width: 250px;
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    left: 3%;
+    box-sizing: border-box;
+    border-top-left-radius: 0px;
+    border-top-right-radius:10px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.yo
+{
+    box-shadow: 40px;
+    background-color: rgb(221, 221, 221);
+
+    
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 25%;
+    right:0%;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.butmark
+{
+    box-shadow: 40px;
+    background-color: rgba(160, 191, 238, 0.411);
+
+    
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 56%;
+    bottom: 50%;
+    left: 3%;
+    box-sizing: border-box;
+    border-top-left-radius: 0px;
+    border-top-right-radius:10px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.youblocked
+{
+    box-shadow: 40px;
+    background-color: rgb(243, 170, 170);
+    font-size: small;
+
+    
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 72%;
+    bottom: 50%;
+    left: 40%;
+    right:0%;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.composemsg
+{
+   float: none;
+   margin-top: 135px;
+   margin-right: 20px;
+   height: 65px;
+   width: 350px;
+   outline: none;
+   border-radius: 0px;
+   background-color: rgba(255, 255, 255, 0.829);
+   outline: none;
+
+}
+.form-control
+{
+    height: 53px;
+    width: 346px; 
+    border: none !important;
+    text-decoration-color: rgba(128, 128, 128, 0.507);
+    outline: none;
+}
+.send
+{
+    box-shadow: 40px;
+    background-color: rgba(255, 255, 255, 0.829);
+    text-decoration-line: none;
+
+    text-align: center;
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    top: 92%;
+    bottom: 50%;
+    left: 80%;
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-size: medium; 
+
+}

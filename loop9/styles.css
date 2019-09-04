@@ -1,0 +1,157 @@
+/* ============================
+================RESETS
++============================= */
+html{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+html *,
+html *:after,
+html *:before {
+    box-sizing: inherit;
+    margin:0;
+    padding: 0;
+}
+
+/* ============================
+================UTILITIES
+============================= */
+.text-blue{
+    color: rgb(135, 151, 198);
+}
+
+.text-green{
+    color: rgb(138, 206, 94);
+}
+.text-black{
+    color: rgb(51, 51, 51);
+}
+.text-faded{
+    color: rgb(130, 152, 169);
+}
+html{
+    background: rgb(247, 205, 117);
+    font-family: Roboto;
+    font-size: 16px;
+}
+.debug{
+    outline: 1px solid blue;
+}
+.debug-r{
+    outline: 1px solid red;
+}
+.debug-y{
+    outline: 1px solid yellow;
+}
+
+/* ============================
+================LOG
+============================= */
+.log{
+    margin: 3rem auto;
+    display: flex;
+    height: 500px;
+    background: white;
+    max-width: 960px;
+}
+.log > * {
+    padding: 2.5em 2em;
+
+}
+
+
+/* ============================
+================WALLET===========
++============================= */
+.wallet{
+    flex: 3.5; /** this is the ratio of .log's (it's parent)  width it takes*/
+    background: rgb(242, 242, 242); /* It has a clearly defined background so we define it explicitly */
+    overflow-y: auto;
+}
+.wallet .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plus-sign{
+    font-size: 2rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    cursor: pointer;
+}
+
+ .card{
+    width: 100%;
+    margin: 1em 0;
+    padding: 1em  0.5em ;
+    background: white;
+    border-radius: 7px;
+    border: 1px solid rgb(207, 208, 209);
+}
+.card-logo{
+    width: 75px;
+    margin-bottom: .5em;
+}
+.card-number{
+    margin-bottom: 0.2em;
+}
+.card:hover{
+    border: 1px solid rgb(80, 156, 233);
+}
+
+/* ============================
+================EXPENSES
++============================= */
+.expenses{
+    flex: 6.5; /** this is the ratio of .log's (it's parent)  width it takes*/
+    overflow-y: auto;
+}
+.expenses-summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.expenses-summary .text {
+    font-weight: normal;
+}
+.currency{
+    font-weight: 700;
+}
+hr{
+    border: 0;
+    border-top: 1px solid rgb(224, 225, 228);
+}
+.expenses-breakdown{
+    list-style-type: none;
+    padding: 1em 0;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(216, 214, 214);
+    font-size: 1rem;
+    margin-right: 1em;
+}
+.expense-item{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.title{
+    font-weight: bold;
+}
+.expense-item .price{
+    display: block;
+    margin-left: auto;
+}

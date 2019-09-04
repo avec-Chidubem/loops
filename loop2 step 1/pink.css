@@ -1,0 +1,178 @@
+.container
+{
+    background-color: rgb(222, 138, 137);
+    width: 100%;
+    height: 740px;
+    overflow: hidden;
+
+}
+.material
+{
+    width: 79%;
+    height: 15%;
+    
+    padding-left: 60px;
+    margin-left: 20%; 
+    overflow: hidden;
+    text-align: center;
+}
+.select
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 10px;
+    font-size: xx-large;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgba(241, 202, 202, 0.685);
+}
+.select:hover
+{
+  
+  color: rgb(241, 202, 202);
+}
+.directions
+{
+    margin-top: 25px;
+    width: 75%;
+    height: 10%;
+    padding-left: 60px;
+    margin-left: 20%; 
+    overflow: hidden;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+.container2
+{
+    width: 100%;
+    height: 60%;
+     
+    
+}
+.cards
+{
+    width: 70%;
+    height: 80%;
+    margin-left: 19%;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+/*.cards::before
+{
+    content: '';
+    background: pink;
+    height: 25%;
+    width: 10%;
+}
+
+.cards::after
+{
+    content: '';
+    background: pink;
+    height: 25%;
+    width: 10%;
+    
+    
+}*/
+.triangle-left
+{
+    position: relative;
+    height: 20%;
+    width: 10%;
+    background-color: pink;
+}
+.arrow-left
+{
+        width: 0;
+        height: 0;
+        border-top: 7px solid transparent;
+        border-right: 7px solid #555;
+        border-bottom: 7px solid transparent;
+        margin-top: 40%;
+        margin-left: 40%;
+}
+.triangle-left:hover
+{
+    background-color: rgb(243, 204, 211);  
+}
+.triangle-right
+{
+    position: relative;
+    height: 20%;
+    width: 10%;
+    background-color: pink;
+}
+.arrow-right
+{
+    width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-left: 7px solid #555;
+    border-bottom: 7px solid transparent;
+    margin-top: 40%;
+    margin-left: 40%;
+}
+.triangle-right:hover
+{
+    background-color: rgb(243, 204, 211);  
+}
+
+.card1
+{
+    background-color: rgb(62, 60, 61);
+    width: 35%;
+    height: 53%;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+    color: rgb(222, 138, 137);
+    padding-top: 15%;
+    padding-left: 5%;
+
+    
+}
+.card2
+{
+    background-color: rgb(53, 51, 52);
+    width: 35%;
+    height: 53%;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+    color: rgb(222, 138, 137);
+    padding-top: 15%;
+    padding-left: 5%;
+
+   
+}
+.card3
+{
+    background-color: rgb(32, 30, 31);
+    width: 35%;
+    height: 53%;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+    color: rgb(222, 138, 137);
+    padding-top: 15%;
+    padding-left: 5%;
+
+}
+.start
+{
+    background-color: rgb(19, 19, 19);
+    
+    font-family: 'Fira Sans', sans-serif;
+    height: 40px;
+    width: 265px;
+    top: 93%;
+    bottom: 50%;
+    left: 9%;
+    position: absolute;
+    color: white;
+    border-radius: 10px; 
+    font-size: small; 
+}
+.start:hover
+{
+    
+    transform: scaleY(1.2)
+}

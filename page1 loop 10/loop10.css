@@ -1,0 +1,260 @@
+.section1
+{
+    box-shadow: 40px;
+    /*background-color: rgba(195, 114, 114, 0.548);*/
+    background-repeat: none;
+    text-align: center;
+    height: 750px;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: 50%;
+    left: 0%;
+    box-sizing: border-box;
+}
+.header
+{
+height: 10%;
+width: 60%;
+position: absolute;
+top: 0%;
+bottom: 50%;
+left: 20%;
+}
+.watch
+{
+    padding-left: 91.5%;
+}
+.apple
+{
+    left: 0%;
+    background-color: rgb(52, 177, 36);
+    width: 0%;
+    height: 10%;
+    top: 0%;
+}
+.picks
+{
+    color: rgba(134, 134, 134, 0.719);
+    text-decoration-line: none;
+}
+.freedomcalls
+{
+    box-shadow: 40%;
+    background-repeat: none;
+    text-align: left;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    left: 20%;
+    font-family: Roboto;
+
+}
+
+
+.picks:hover
+{
+    color: rgba(0, 0, 0, 0.863);
+    border-bottom: 2px solid black;
+   
+}
+input 
+{
+ border: 0;
+
+ outline: 0;
+ border-bottom: 2px solid black;
+ font-family: Roboto;
+}
+.header .cuscare
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-family: Roboto;
+    top: 40%;
+    height: 10%;
+    left: 60%;
+}
+.section2
+{
+    box-shadow: 40px;
+   
+    background-repeat: none;
+    text-align: center;
+    height: 115%;
+    width: 100%;
+    position: absolute;
+    top: 99%;
+    bottom: 50%;
+    left: 0%;
+    box-sizing: border-box;
+    box-shadow: black;
+}
+.page2
+{
+    
+    text-decoration-color: rgba(51, 51,51);
+    background-repeat: none;
+    text-align: left;
+    height: 35%;
+    width: 60%;
+    position: absolute;
+    top: 5%;
+    bottom: 50%;
+    left: 20%;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+}
+.preview
+{
+    height: 40%;
+    width: 25%;
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 55%;
+}
+.section3
+{
+    box-shadow: 40px;
+    background-repeat: none;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: url("runners.jpg");
+    background-size: 100% 120%;
+    background-repeat: no-repeat;
+    top: 213.8%;
+    bottom: 50%;
+    left: 0%;
+    box-sizing: border-box;
+    
+}
+
+.admonish
+{
+    background-repeat: none;
+    text-align: left;
+    height: 40%;
+    width: 30%;
+    position: absolute;
+    top: 35%;
+    bottom: 50%;
+    left: 55%;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.explore
+{
+    
+    background-color: rgb(234, 99, 92);
+    background-repeat: none;
+    text-align: center;
+    height: 15%;
+    width: 35%;
+    position: absolute;
+    top: 100%;
+    bottom: 50%;
+    left: 0%;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: small;
+}
+.explore:hover
+{
+    background-color: rgba(214, 96, 90, 0.986);
+}
+.wordsec3
+{
+    text-align: left;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 5%;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.line
+{
+    width: 2.5px;
+    
+    background-color: rgb(255, 255, 255);
+    height: 40%;
+    top: 15%;
+    
+}
+.blackline
+{
+    width: 2.5px;
+    background-color: rgba(37, 35, 35, 0.664);
+    height: 34%;
+    position:absolute;
+    top: 45%;
+    
+}
+.learnmore
+{
+    background-color: rgba(255, 255, 255, 0.829);
+    background-repeat: none;
+    text-align: right;
+    height: 20%;
+    width: 30%;
+    position: absolute;
+    top: 55%;
+    bottom: 50%;
+    left: 68%;
+    box-sizing: border-box;
+    box-shadow: black;
+    transition: 50ms;
+}
+.learnmore:hover
+{ 
+    transform: scale(1.1);
+}
+.redlearn
+{
+    text-align: right;
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    bottom: 50%;
+    left: 10%;
+    background-color: rgb(255, 255, 255);
+    text-decoration-color: brown;
+}
+.redlinelearn
+{
+    background-color: rgb(234, 99, 92);
+    background-repeat: none;
+    text-align: center;
+    height: 5%;
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    bottom: 50%;
+    left: 0%;
+}
+.buynow
+{
+    box-shadow: 40%;
+    background-repeat: none;
+    text-align: left;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 20%;
+    font-family: Roboto;  
+}
